@@ -1,0 +1,274 @@
+],    
+"Networks": [
+    {
+      "Name": "VIVO [PROXY 01]",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br1.tunelssh.host[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.24.10.16",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+     {
+      "Name": "VIVO [PROXY 02]",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br1.tunelssh.host[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "172.64.195.2",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO [PROXY 03]",
+      "FLAG": "vivo",
+      "Payload": "GET \/ HTTP\/1.3[crlf]Host: br1.tunelssh.host[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "v.gdmhost.ga",
+      "TlsIP": "v.gdmhost.ga",
+      "ProxyIP": "v.gdmhost.ga",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO [SSL 04]",
+      "FLAG": "vivo",
+      "Payload": "GET wss://api.bitso.com/ HTTP/1.1[lf]Host: br1.tunelssh.host[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "api.bitso.com",
+      "TlsIP": "172.64.195.2",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+},
+{
+"Name": "VIVO [SSL 05]",
+      "FLAG": "vivo",
+      "Payload": "GET wss://support.pokemon.com/ HTTP/1.1[crlf]Host: br1.tunelssh.host[crlf]Upgrade: (Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "support.pokemon.com",
+      "TlsIP": "172.64.130.2",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+    {
+      "Name": "VIVO [SSL 06]",
+      "FLAG": "vivo",
+      "Payload": "GET wss://checkout.mediafire.com// HTTP/1.1[crlf]Host: br1.tunelssh.host[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "checkout.mediafire.com",
+      "TlsIP": "104.24.11.16",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+       },
+      {
+      "Name": "VIVO [SSL 07]",
+      "FLAG": "vivo",
+      "Payload": "GET wss://onepiece.com// HTTP/1.1[crlf]Host: br1.tunelssh.host[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "onepiece.com",
+      "TlsIP": "172.64.131.2",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+      },
+      {
+"Name": "VIVO [SSL 08]",
+      "FLAG": "vivo",
+      "Payload": "GET wss://www.alura.com.br/ HTTP/1.1[lf]Host: br1.tunelssh.host[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "www.alura.com.br",
+      "TlsIP": "104.24.10.16",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "VIVO [SSL 09]",
+      "FLAG": "vivo",
+      "Payload": "GET wss://money-staging.infinitepay.io/ HTTP/1.1[crlf]Host: br1.tunelssh.host[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "money-staging.infinitepay.io",
+      "TlsIP": "172.64.131.2",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "VIVO [SSL 10]",
+      "FLAG": "vivo",
+      "Payload": "GET wss://carrinho-pos-familia.vivo.com.br// HTTP/1.1[crlf]Host: br1.tunelssh.host[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "carrinho-pos-familia.vivo.com.br",
+      "TlsIP": "172.64.131.2",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "VIVO [SSL 11]",
+      "FLAG": "vivo",
+      "Payload": "GET wss://portaljud.vivo.com.br// HTTP/1.1[crlf]Host: br1.tunelssh.host[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "portaljud.vivo.com.br",
+      "TlsIP": "172.64.131.2",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM [SSL 01]",
+      "FLAG": "tim",
+      "Payload": "GET ws://static.r4you.co HTTP/1.1[crlf]Host: br1.tunelssh.host[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.4.175",
+      "ProxyIP": "104.26.4.175",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+      },
+      {
+      "Name": "TIM [SSL 02]",
+      "FLAG": "tim",
+      "Payload": "GET wss://static.r4you.co HTTP/1.1[crlf]Host: br1.tunelssh.host[crlf]X-Forward-Host: br1.tunelssh.host[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.5.175",
+      "ProxyIP": "104.26.5.175",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+      },
+      {
+      "Name": "TIM [SSL 03]",
+      "FLAG": "tim",
+      "Payload": "GET wss://cdnjs.cloudflare.com  HTTP/1.1[crlf]Host: br1.tunelssh.host[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "cdnjs.cloudflare.com",
+      "TlsIP": "104.16.19.94",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM [SSL 04]",
+      "FLAG": "tim",
+      "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: br1.tunelssh.host\nUpgrade: ws\n\n",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.5.175",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM [SSL 05]",
+      "FLAG": "tim",
+      "Payload": "GET ws://emartim.com.br HTTP/1.1\nHost: br1.tunelssh.host\nUpgrade: ws\n\n",
+      "SNI": "emartim.com.br",
+      "TlsIP": "104.21.27.243",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM [SSL 06]",
+      "FLAG": "tim",
+      "Payload": "GET ws://cutim.com.br HTTP/1.1\nHost: br1.tunelssh.host\nUpgrade: ws\n\n",
+      "SNI": "cutim.com.br",
+      "TlsIP": "104.21.4.149",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM [SSL 07]",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br1.tunelssh.host[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "br1.tunelssh.host",
+      "TlsIP": "104.16.51.111",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "️CLARO [SSL 01]",
+      "FLAG": "claro",
+      "Payload": "GET wss://ipv4.icanhazip.com/ HTTP/1.1[crlf]Host: br1.tunelssh.host[crlf]Upgrade: VEM_BRABO[crlf][crlf]",
+      "SNI": "ipv4.icanhazip.com",
+      "TlsIP": "ipv4.icanhazip.com",
+      "ProxyIP": "ipv4.icanhazip.com",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "️CLARO [SSL 02]",
+      "FLAG": "claro",
+      "Payload": "GET wss://4.icanhazip.com/ HTTP/1.1[crlf]Host: br1.tunelssh.host[crlf]Upgrade: VEM_BRABO[crlf][crlf]",
+      "SNI": "4.icanhazip.com",
+      "TlsIP": "4.icanhazip.com",
+      "ProxyIP": "4.icanhazip.com",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO [SSL 03]",
+      "FLAG": "claro",
+      "Payload": "GET wss://api.new.livestream.com/ HTTP/1.1[crlf]Host: br1.tunelssh.host[crlf]Upgrade: VEM_BRABO[crlf][crlf]",
+      "SNI": "api.new.livestream.com",
+      "TlsIP": "api.new.livestream.com",
+      "ProxyIP": "api.new.livestream.com",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO [SSL 04]",
+      "FLAG": "claro",
+      "Payload": "GET wss://www.icanhazip.com/ HTTP/1.1[crlf]Host: br1.tunelssh.host[crlf]Upgrade: VEM_BRABO[crlf][crlf]",
+      "SNI": "www.icanhazip.com",
+      "TlsIP": "www.icanhazip.com",
+      "ProxyIP": "www.icanhazip.com",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO [SSL 05]",
+      "FLAG": "claro",
+      "Payload": "GET wss://content.akross.com.br/ HTTP/1.1[crlf]Host: br1.tunelssh.host[crlf]Upgrade: VEM_BRABO[crlf][crlf]",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
+      "ProxyIP": "content.akross.com.br",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "OI [SSL 01]",
+      "FLAG": "oi",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: br1.tunelssh.host\nUpgrade: ws\n\n",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "www.hbogo.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "OI [SSL 02]",
+      "FLAG": "oi",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: br1.tunelssh.host\nUpgrade: ws\n\n",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "104.16.53.91",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "OI [SSL 03]",
+      "FLAG": "oi",
+      "Payload": "GET sni://www.hbogo.com.br HTTP/1.1[crlf]Host: br1.tunelssh.host[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "104.16.51.91",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "OI [SSL 04]",
+      "FLAG": "oi",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1[crlf]Host: br1.tunelssh.host[crlf]Upgrade:ws[crlf][crlf]",
+      "SNI": "GET ws://www.hbogo.com.br",
+      "TlsIP": "104.16.55.91",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws" 
+    }
+  ]
+}
