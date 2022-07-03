@@ -16,4 +16,4 @@ echo 'net.ipv6.conf.all.disable_ipv6 = 1' > /etc/sysctl.d/70-disable-ipv6.conf
 sysctl -p -f /etc/sysctl.d/70-disable-ipv6.conf
 
 # - Execulta instalador
-wget https://raw.githubusercontent.com/https://raw.githubusercontent.com/CoutySSH/SC-CoutySSH/main/Plus/main/ARM/Plus && chmod 777 Plus && ./Plus
+wget https://raw.githubusercontent.com/CoutySSH/SC-CoutySSH/main/Plus/main/ARM/Plus && chmod 777 Plus && ./Plus
